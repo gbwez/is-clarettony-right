@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Is ClaretTony Right?</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f8ff;
+            padding: 50px;
+        }
+        #statement {
+            font-size: 24px;
+            margin-bottom: 30px;
+        }
+        button {
+            padding: 15px 25px;
+            font-size: 18px;
+            margin: 10px;
+            cursor: pointer;
+        }
+        #feedback {
+            font-size: 20px;
+            color: #008000;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Is ClaretTony Right?</h1>
+    <div id="game">
+        <p id="statement"></p>
+        <button onclick="playerChoice('agree')">Yes, ClaretTony is right.</button>
+        <button onclick="playerChoice('disagree')">No, that doesn't seem correct.</button>
+        <p id="feedback"></p>
+    </div>
+
+    <script src="game.js"></script>
+
+</body>
+</html>
