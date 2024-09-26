@@ -24,10 +24,10 @@ function showStatement() {
 
 function playerChoice(choice) {
     if (choice === 'agree') {
-        document.getElementById('feedback').textContent = "Correct! ClaretTony appreciates your support.";
+        document.getElementById('feedback').textContent = "Correct! ClaretTony can't be wrong.";
         document.getElementById('feedback').style.color = '#008000';
     } else {
-        document.getElementById('feedback').textContent = "Hmm, remember, ClaretTony is always right!";
+        document.getElementById('feedback').textContent = "Wrong! Remember, ClaretTony is ALWAYS right!";
         document.getElementById('feedback').style.color = '#FF0000';
     }
     currentStatement++;
