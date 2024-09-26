@@ -1,14 +1,14 @@
 // game.js
 
 const statements = [
-    "ClaretTony says 2 + 2 = 5.",
-    "ClaretTony believes that the moon is made of cheese.",
-    "ClaretTony declares that fish can walk on land.",
-    "ClaretTony insists that time moves backwards on Sundays.",
-    "ClaretTony states that rain is nature's way of laughing.",
-    "ClaretTony proclaims that phones work better underwater.",
-    "ClaretTony suggests that birds can swim better than fish.",
-    "ClaretTony asserts that reading this sentence is impossible."
+    "ClaretTony says Flynnders is a cunt.",
+    "ClaretTony says the age of consent should be 6.",
+    "ClaretTony says he deserves a new iPhone.",
+    "ClaretTony deleted your post.",
+    "ClaretTony states that he is never wrong.",
+    "ClaretTony says that only he can approve new signings.",
+    "ClaretTony suggests that only he knows what is going on at Burnley Football Club.",
+    "ClaretTony lives in spack towers."
 ];
 
 let currentStatement = 0;
